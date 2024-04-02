@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthikeyan Selvamani's App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>TransEase &trade;</h1>
+        <div class="header-des">
+            <a class="header-des" href=transease05.ccbp.tech>TransEase your Place</a><br />
+            <a class="header-des" href=transease05.ccbp.tech>Sign up</a>
+        </div>
+        <hr />
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#faqs">FAQs</a></li>
+                <li><a href="#signup">Sign up</a></li>
+            </ul>
+        </nav>
+        <div class="d-flex flex-rows justify-content-center">
+            <img src="https://viralrang.com/wp-content/uploads/2020/10/Transportation-of-Goods-Logistics.jpg" class="image-page" />
+        </div>
+        <br />
+        <div id="booking" class="login-tran">
+            <h1>Find places to Move on TransEase</h1>
+            <p>Discover Modes of Transport vehicle perfect for any times.</p>
+            <form action="signup.html" method="get">
+                <label>Location
+                    <input type="location" name="location" required>
+                </label>
+                <div>
+                    <label for="goods">Types of Goods</label>
+                    <input type="goods" placeholder="Name of Goods" minlength="7" required>
+                </div>
+                <div>
+                    <label for="Checkin">Check In</label>
+                    <input type="date" name="Checkin" required id="Checkindate">
+                </div>
+                <div>
+                    <label for="Checkout">Check Out</label>
+                    <input type="date" name="Checkout" required id="Checkoutdate">
+                </div>
+                <div>
+                    <label for="phoneno">Phone no.</label>
+                    <input type="phoneno" name="phoneno" id="phoneno" required>
+                </div>
+                <div>
+                    <input type="checkbox" name="sms alert" id="sms alert">
+                    <label>SMS Alert</label>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="gender" id="female" value="female ">
+                    <label for="female">Female</label>
+                </div>
+                <button type="submit" class="button12"> Search </button>
+                <button type="reset" class="button12">reset</button>
+            </form>
+        </div>
+        <div id="features">
+            <h2 class="paraword">Big, small, we have it all</h2>
+            <img src="https://th.bing.com/th/id/R.2856372c822832be7f11e7c041772ecb?rik=rrEzSFjx3%2fSbVg&riu=http%3a%2f%2fwww.thevillager.com.na%2ffiles%2fimages%2florrylogo2.jpg&ehk=mG8mt%2fTZS9PgNg9q3Aw63h%2fTAuXVLhbO79R7RhZUPvk%3d&risl=&pid=ImgRaw&r=0" class="image-page1" />
+            <img src="https://thumbs.dreamstime.com/b/world-class-businesses-trains-transportation-containers-logistics-concepts-trucks-transportation-transportation-rail-271722428.jpg" class="image-page1" />
+            <img src="https://www.actu-environnement.com/images/illustrations/news/36586_large.jpg" class="image-page1" />
+            <p class="paraword">At TransEase, we are committed to providing safe, reliable, and efficient transportation solutions for all your needs. Whether you're looking for a convenient ride to work, planning a family vacation, or transporting goods for your business, we've got you covered. With a diverse fleet of vehicles and a team of experienced professionals, we strive to exceed your expectations every step of the way.</p>
+        </div>
+    </header>
+    <section class="bg-container">
+        <h1>Get specific with your favourite Vehicles for Transport</h1>
+        <p>Choose from top features like these – and more - for a personalised Mode</p>
+        <div class="home-bg-container2">
+            <img src=https://i.pinimg.com/736x/68/33/3b/68333b0904fc31bf3d54c212e1aa5e2e.jpg class="home-image2 d-flex flex-rows" />
+            <h1 class=>Lorry</h1>
+        </div>
+        <div class="home-bg-container2">
+            <img src=https://thumbs.dreamstime.com/b/sketch-bus-large-passenger-89853735.jpg class="home-image2 d-flex flex-rows" />
+            <h1 class=>Bus</h1>
+        </div>
+        <div class="home-bg-container2">
+            <img src=https://i.pinimg.com/736x/2c/59/ed/2c59ed26f2331bf6d48a51dcb1848fa2.jpg class="home-image2 d-flex flex-rows" />
+            <h1 class=>Car</h1>
+        </div>
+    </section>
+    <section id="faqs">
+        <h2>FAQ's</h2>
+        <div class="faq">
+            <h3>1. What are the different modes of transportation available in your company?</h3>
+            <p>Answer: There are various modes of transportation in our company, including cars, buses, trains-goods transport, bicycles, motorcycles,</p>
+        </div>
+        <div class="faq">
+            <h3>2. How does ride-sharing work?</h3>
+            <p>Answer: Ride-sharing services allow individuals to request rides from nearby drivers using mobile apps. These services often include companies like Uber and Lyft.</p>
+        </div>
+    </section>
+    <div id="signup" class="container1">
+        <h12>Sign up to Explore</h12>
+        <form action="signup.html" method="get">
+            <input type="email" id="email" placeholder="Enter your email address" required>
+            <button1 type="submit">Sign up</button1>
+            <p id="message">Enter a <a class="signup-des" href=https://www.google.com />Google</a> email ID</p>
+        </form>
+    </div>
+    </br>
+    <footer>
+        <p>&copy; 2024 TransEase's.</br>Karthikeyan Selvamani's App</br>All rights reserved.</p>
+        <p class="footer-des">Privacy . Terms . Sitemap . Company Details</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+
+</html>

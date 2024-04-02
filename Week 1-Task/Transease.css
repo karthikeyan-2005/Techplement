@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+header {
+    background-color: #fff;
+    color: #FD0707;
+    padding: 20px;
+    text-align: left;
+}
+
+header h1 {
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #222;
+    text-decoration: none;
+}
+
+section h2 {
+    font-family: Roboto;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: #CECECE;
+    color: #222;
+    text-align: left;
+    padding: 20px;
+}
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+
+#faqs {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.faq {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    animation: fadeInUp 1s ease-out;
+}
+
+.container1 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h12 {
+    margin-bottom: 20px;
+}
+
+input[type="email"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button1 {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+#error {
+    color: red;
+}
+
+.footer-des {
+    text-align: center;
+}
+
+.header-des {
+    color: black;
+    text-align: right;
+}
+
+.signup-des {
+    color: blue;
+}
+
+.image-page {
+    border-radius: 15px;
+    height: 50vh;
+    width: 90vw;
+    margin-top: 10px;
+}
+
+.login-tran {
+    font-family: Roboto;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    text-align: center;
+    color: #222;
+    padding-bottom: 10px;
+}
+
+.button12 {
+    font-family: Roboto;
+    color: #fff;
+    background-color: #FD0707;
+    border-width: 0px;
+    border-radius: 15px;
+    width: 75px;
+    height: 25px;
+}
+
+.paraword {
+    font-family: Roboto;
+    color: #222;
+}
+
+.image-page1 {
+    border-radius: 15px;
+    height: 25vh;
+    width: 25vw;
+    margin-left: 9px;
+}
+
+.bg-container {
+    background-color: #E8E8E8;
+    font-family: Roboto;
+    color: #222;
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+}
+
+.home-bg-container2 {
+    background-color: #fff;
+    height: 14vh;
+    width: 85vw;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.home-image2 {
+    height: 40px;
+    width: 40px;
+}
