@@ -11,9 +11,56 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+ScrollReveal().reveal('.header-des', {
+    delay: 200,
+    origin: 'top',
+    distance: '50px',
+    duration: 1000
+});
+ScrollReveal().reveal('nav', {
+    delay: 200,
+    origin: 'top',
+    distance: '50px',
+    duration: 1000
+});
+ScrollReveal().reveal('.login-tran', {
+    delay: 200,
+    origin: 'left',
+    distance: '50px',
+    duration: 1000
+});
+ScrollReveal().reveal('.paraword', {
+    delay: 200,
+    origin: 'right',
+    distance: '50px',
+    duration: 1000
+});
+ScrollReveal().reveal('.image-page1', {
+    delay: 200,
+    origin: 'bottom',
+    distance: '50px',
+    duration: 1000
+});
+ScrollReveal().reveal('.bg-container', {
+    delay: 200,
+    origin: 'bottom',
+    distance: '50px',
+    duration: 1000
+});
 ScrollReveal().reveal('.faq', {
-    delay: 100,
-    interval: 100,
+    delay: 200,
+    origin: 'left',
+    distance: '50px',
+    duration: 1000
+});
+ScrollReveal().reveal('.container1', {
+    delay: 200,
+    origin: 'right',
+    distance: '50px',
+    duration: 1000
+});
+ScrollReveal().reveal('footer', {
+    delay: 200,
     origin: 'bottom',
     distance: '50px',
     duration: 1000
