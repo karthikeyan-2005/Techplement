@@ -11,20 +11,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-ScrollReveal().reveal('.feature-item', {
-    delay: 100,
-    interval: 100,
-    origin: 'bottom',
-    distance: '50px',
-    duration: 1000
-});
-ScrollReveal().reveal('.pricing-plan', {
-    delay: 100,
-    interval: 100,
-    origin: 'bottom',
-    distance: '50px',
-    duration: 1000
-});
 ScrollReveal().reveal('.faq', {
     delay: 100,
     interval: 100,
